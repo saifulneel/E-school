@@ -54,6 +54,15 @@ h5{
 @media only screen and (max-width: 770px){
     .testimonial{
         display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .testimonial-img{
         flex-basis: 50%;
+    }
+    i{
+        text-align: center;
+        display: block;
     }
 }
