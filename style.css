@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+i{
+	color: #21B573;
+}
+#navbarNav ul li{
+    margin-right: 20px;
+}
+h5{
+    color: #E19734 !important;
+}
+.schedule{
+    color: #21B573;
+}
+.get-buy-button{
+    background-image: linear-gradient(to bottom, #21B573 0, #21B573 100%);
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.card{
+    border: none !important;
+}
+.card-footer img{
+    width: 20px;
+    height: 20px;
+}
+.testimonial img{
+    width: 150px;
+}
+.news-letter{
+	border-radius: 100px 0 0 100px !important;
+    min-height: 50px;
+}
+.input-group-text{
+	background: #21B573 !important;
+	color: #fff !important;
+	border-radius: 0 100px 100px 0 !important;
+	min-height: 50px;
+}
+.footer-section{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 20px;
+	background: #212C30;
+}
+@media only screen and (max-width: 770px){
+    .testimonial{
+        display: flex;
+        flex-basis: 50%;
+    }
+}
